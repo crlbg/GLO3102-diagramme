@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15" version="29.2.7">
+  <diagram name="Page-1" id="CkgWp_1mPMjiB5Fak5LO">
+    <mxGraphModel dx="2222" dy="2145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="47x535EN3IgdF8ZDdxAV-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Serveur API REST&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /inventory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET /inventory/:id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST /inventory&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PUT /inventory/:id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DELETE /inventory/:id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DELETE /inventory&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="520" x="95" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-23" edge="1" parent="1" source="47x535EN3IgdF8ZDdxAV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="47x535EN3IgdF8ZDdxAV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Composants VUE" vertex="1">
+          <mxGeometry height="420" width="790" x="-40" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-19" edge="1" parent="47x535EN3IgdF8ZDdxAV-17" source="47x535EN3IgdF8ZDdxAV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="47x535EN3IgdF8ZDdxAV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-21" edge="1" parent="47x535EN3IgdF8ZDdxAV-17" source="47x535EN3IgdF8ZDdxAV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="47x535EN3IgdF8ZDdxAV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-22" edge="1" parent="47x535EN3IgdF8ZDdxAV-17" source="47x535EN3IgdF8ZDdxAV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="47x535EN3IgdF8ZDdxAV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-1" parent="47x535EN3IgdF8ZDdxAV-17" style="rounded=0;whiteSpace=wrap;html=1;" value="App.vue" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-2" parent="47x535EN3IgdF8ZDdxAV-17" style="rounded=0;whiteSpace=wrap;html=1;" value="InventoryList.vue" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-3" parent="47x535EN3IgdF8ZDdxAV-17" style="rounded=0;whiteSpace=wrap;html=1;" value="InventoryItem.vue" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-8" edge="1" parent="47x535EN3IgdF8ZDdxAV-17" source="47x535EN3IgdF8ZDdxAV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="47x535EN3IgdF8ZDdxAV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-4" parent="47x535EN3IgdF8ZDdxAV-17" style="rounded=0;whiteSpace=wrap;html=1;" value="InventoryForm.vue" vertex="1">
+          <mxGeometry height="60" width="150" x="255" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-5" parent="47x535EN3IgdF8ZDdxAV-17" style="rounded=0;whiteSpace=wrap;html=1;" value="DeleteModal.vue" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-25" edge="1" parent="1" source="47x535EN3IgdF8ZDdxAV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="47x535EN3IgdF8ZDdxAV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Services" vertex="1">
+          <mxGeometry height="130" width="780" x="-35" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-12" parent="47x535EN3IgdF8ZDdxAV-18" style="rounded=1;whiteSpace=wrap;html=1;" value="InventoryService.js" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="47x535EN3IgdF8ZDdxAV-11" parent="47x535EN3IgdF8ZDdxAV-18" style="rounded=1;whiteSpace=wrap;html=1;" value="AuthService.js" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
